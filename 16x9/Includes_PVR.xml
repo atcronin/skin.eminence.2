@@ -59,8 +59,8 @@
                                     <height>8</height>
                                     <reveal>true</reveal>
                                     <info>ListItem.Progress</info>
-                                    <lefttexture colordiffuse="5fededed">osd/progress-end.png</lefttexture>
-                                    <midtexture colordiffuse="5fededed">osd/progress-end.png</midtexture>
+                                    <lefttexture colordiffuse="$VAR[HighlightColor]">osd/progress-end.png</lefttexture>
+                                    <midtexture colordiffuse="$VAR[HighlightColor]">osd/progress-end.png</midtexture>
                                 </control>
                                 <control type="label">
                                     <left>160</left>
@@ -177,8 +177,8 @@
             <height>8</height>
             <reveal>true</reveal>
             <info>ListItem.Progress</info>
-            <lefttexture colordiffuse="5fededed">osd/progress-end.png</lefttexture>
-            <midtexture colordiffuse="5fededed">osd/progress-end.png</midtexture>
+            <lefttexture colordiffuse="$VAR[HighlightColor]">osd/progress-end.png</lefttexture>
+            <midtexture colordiffuse="$VAR[HighlightColor]">osd/progress-end.png</midtexture>
         </control>
     </include>
     <include name="PVR_SmallList_Progress_Focus">
