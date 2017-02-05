@@ -781,7 +781,7 @@
                         <textcolor>$VAR[HighlightColor2]</textcolor>
                         <font>Font-ListInfo-Small-Bold</font>
                         <label>$VAR[Label_GenreLine,[UPPERCASE],[/UPPERCASE]]</label>
-                        <visible>!IsEmpty(ListItem.Genre)</visible>
+                        <visible>False</visible>
                     </control>
                     <control type="textbox">
                         <left>pad</left>
@@ -790,7 +790,7 @@
                         <font>Font-ListInfo</font>
                         <align>left</align>
                         <label>$VAR[Label_Plot]</label>
-                        <visible>!IsEmpty(ListItem.Genre)</visible>
+                        <visible>False</visible>
                     </control>
                     <control type="textbox">
                         <left>pad</left>
@@ -799,7 +799,7 @@
                         <font>Font-ListInfo</font>
                         <align>left</align>
                         <label>$VAR[Label_Plot]</label>
-                        <visible>IsEmpty(ListItem.Genre)</visible>
+                        <visible>True</visible>
                     </control>
                     <control type="label">
                         <left>pad</left>
